@@ -1,7 +1,5 @@
 # GaTech_Practicum
 
-# GaTech_Practicum
-
 
 ## Instructions to Replicate this model on your machine.
 
