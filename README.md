@@ -3,12 +3,20 @@
 
 ## Instructions to Replicate this model on your machine.
 
-1. Clone this github repo to your local machine either by downloading 
+1. Clone this github repo to your local machine via two possible methods:
+ - Hit the Green 'Code' button and download zip
+ - using command line and `git clone`
 
-You should create a local conda environment with the packages needed via the command: 
+2. Move the cloned folder into your Jupyter server base folder, or direct Jupyter web client to correct folder location.
 
-`conda env create -f environment.yml`
+3. You should create a local conda environment via the below command and using the environment.yml file which has all the packages needed: 
 
+`conda env create -f /path/to/environment.yml`
+
+4. Activate the conda environment you created:
+ `activate pyhospice'\
+ 
+ 
 
 
 The Jupyter Notebooks are executed in order to replicate the results on your own local machine.
