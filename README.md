@@ -22,7 +22,7 @@
 6. The Jupyter Notebooks are executed in order to replicate the results on your own local machine. Follow the documentation in the notebooks for detailed explanations of each step
 
 01_Clean_RawData.........
-> The first notebook will take the final version of the CSV datafile Compassus provided as input
+> The first notebook will take the final version of the CSV datafile Compassus provided as input <br>
 > **Data Exploration** - Run SweetViz, Functionality to eliminate columns of your choosing, 
 > **Class Labels** - label the patients mortality class (1 or 0) depending on whether they died within 365 days or lived longer than 365 days. 
 > Export Cleaned up CSV
