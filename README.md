@@ -36,11 +36,11 @@
 
 
 03_Create_Models_for_Mortality_Predict....
-> **Imports CSV** - Imports the CSV's from previous step
-> **Feature Selection** - Functions to select features and process them to extract useful info and convert categorical features to integers
-> **Process Data** - Creates and exports csv files for each patient with their episodes and visits along with integer representations of each feature
-> **Setup and Run Model** - The processesd data is fed to the LSTM model
-> These files need to be moved into the x_data folder.  In a separate step the labels are created into a separate csv file with need to be in the y_data folder.
+> **Imports CSV** - Imports the CSV's from previous step <br>
+> **Feature Selection** - Functions to select features and process them to extract useful info and convert categorical features to integers <br>
+> **Process Data** - Creates and exports csv files for each patient with their episodes and visits along with integer representations of each feature <br>
+> **Setup and Run Model** - The processesd data is fed to the LSTM model <br>
+> These files need to be moved into the x_data folder.  In a separate step the labels are created into a separate csv file with need to be in the y_data folder. <br>
 
 ### You can see my report in the Final_Practicum_Levesque.pdf file
 
