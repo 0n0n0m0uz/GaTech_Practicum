@@ -1,4 +1,4 @@
-name: pyhealth
+name: pyhospice
 channels:
   - pytorch
   - conda-forge
