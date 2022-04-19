@@ -28,9 +28,9 @@
 > **Export Cleaned up CSV** - From this point forward forget about the original dataset and use this cleaned up version for further processing. <br>
 
 02_Create_Patient_Episode.........
-> ** Import Data** - imports the smaller, cleaned up dataset from step 1 <br>
+> **Import Data** - imports the smaller, cleaned up dataset from step 1 <br>
 > **Create Patient DataFrame** - Creates df and exports csv with each patient and their basic demographic data and exports csv <br>
-> **Create OASIS Events DataFrame** - Proccesses the OASIS events and extracts the useful info, converts categorical features to integers and exports csv <br>
+> **Create OASIS Events DataFrame** - Procces the OASIS events and extracts useful info, converts categorical features to int and exports csv <br>
 > **Create Episodes DataFrame** - Creates chronological episodes for each patients and exports csv <br>
 > **Create Visits DataFrame** - Creates chronological visits for during each episode and exports csv <br>
 
