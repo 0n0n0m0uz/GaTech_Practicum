@@ -12,10 +12,10 @@
 
 3. You should create a local conda environment via the below command and using the environment.yml file which has all the packages needed: 
 
-`conda env create -f /path/to/environment.yml`
+      `conda env create -f /path/to/environment.yml`
 
 4. Activate the conda environment you created:
- `activate pyhospice'
+       `activate pyhospice'
 
 5. Launch Jupyter Notebook
  
