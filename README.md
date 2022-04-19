@@ -30,22 +30,24 @@
 02_Create_Patient_Episode.........
 > **Import Data** - imports the smaller, cleaned up dataset from step 1 <br>
 > **Create Patient DataFrame** - Creates df and exports csv with each patient and their basic demographic data and exports csv <br>
-> **Create OASIS Events DataFrame** - Procces the OASIS events and extracts useful info, converts categorical features to int and exports csv <br>
+> **Create OASIS Events DataFrame** - Procces the OASIS events and extracts useful info, <br>
 > **Create Episodes DataFrame** - Creates chronological episodes for each patients and exports csv <br>
 > **Create Visits DataFrame** - Creates chronological visits for during each episode and exports csv <br>
 
 
 03_Create_Models_for_Mortality_Predict....
-> The 3rd notebook will import the CSV from step 2 and then setup and execute the model.  There are steps to extract feature info into a better format and then run the LTSM model.  Basically, it will create a separate episode file for each patient.  These files need to be moved into the x_data folder.  In a separate step the labels are created into a separate csv file with need to be in the y_data folder.
-
-I am going to work on automating even futher before the presentation.
-
+> **Imports CSV** - Imports the CSV's from previous step
+> **Feature Selection** - Functions to select features and process them to extract useful info and convert categorical features to integers
+> **Process Data** - Creates and exports csv files for each patient with their episodes and visits along with integer representations of each feature
+> **Setup and Run Model** - The processesd data is fed to the LSTM model
+> These files need to be moved into the x_data folder.  In a separate step the labels are created into a separate csv file with need to be in the y_data folder.
 
 ### You can see my report in the Final_Practicum_Levesque.pdf file
 
 The objective of this analysis was to take the patient-level electronic healthcare data and develop a model that could predict mortality within 1 year.  Patients who the model determines have the highest likelihood of perishing will be moved from regular home health care and into hospice care.  Accurate predictions offer benefits to both patients and providers as resources can be allocated more effectivley and the proper attention and care can be prioritized to those patients with the most urgent needs.  There are economic benefits as well as quality of life benefits which is a strong incentive for research into new and improved prediction approaches.  
 
 
+---
 ---
 All this text below was just me thinking outloud before I wrote the paper.  It's not really important.
 
