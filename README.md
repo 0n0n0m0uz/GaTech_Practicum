@@ -5,8 +5,8 @@
 ## Instructions to Replicate this model on your machine.
 
 1. Clone this github repo to your local machine via two possible methods:
- - Hit the Green 'Code' button above and download zip
- - using command line and `git clone`
+   - Hit the Green 'Code' button above and download zip
+   - using command line and `git clone`
 
 2. Move the cloned folder into your Jupyter server base folder, or direct Jupyter web client to correct folder location.
 
