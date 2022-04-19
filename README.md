@@ -19,7 +19,7 @@
 
 5. Launch Jupyter Notebook
  
-6. The Jupyter Notebooks are executed in order to replicate the results on your own local machine.
+6. The Jupyter Notebooks are executed in order to replicate the results on your own local machine. Follow the documentation in the notebooks for detailed explanations of each step
 
 01_Clean_RawData.........
 > The first notebook will take the final version of the CSV datafile Compassus provided as input
