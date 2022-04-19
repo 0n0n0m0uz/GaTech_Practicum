@@ -3,6 +3,8 @@
 
 ## Instructions to Replicate this model on your machine.
 
+1. Clone this github repo to your local machine either by downloading 
+
 You should create a local conda environment with the packages needed via the command: 
 
 `conda env create -f environment.yml`
