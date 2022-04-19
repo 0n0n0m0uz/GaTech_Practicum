@@ -23,7 +23,7 @@
 
 01_Clean_RawData.........
 > **Import CSV data** You may have to convert excel file to csv. This step takes final version of Compassus data file as input <br>
-> **Data Exploration** - Runs SweetViz report, functionality to eliminate columns of your choosing, functions to clean up duplicates, fix errors in data <br>
+> **Data Exploration** - Runs SweetViz report, functionality to eliminate cols of your choosing, functions to clean up dupes, fix data issues <br>
 > **Class Labels** - label the patients mortality class (1 or 0) depending on whether they died within 365 days or lived longer than 365 days. <br>
 > **Export Cleaned up CSV** - From this point forward forget about the original dataset and use this cleaned up version for further processing. <br>
 
