@@ -1,4 +1,4 @@
-# GaTech_Practicum
+# 1-Year Mortality Prediction of Home Health Care Patients
 
 *This was built in the linux subsystem for Windows, so all instructions are assuming a linux environment*
 
