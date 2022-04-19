@@ -23,9 +23,9 @@
 
 01_Clean_RawData.........
 > The first notebook will take the final version of the CSV datafile Compassus provided as input <br>
-> **Data Exploration** - Run SweetViz, Functionality to eliminate columns of your choosing, 
-> **Class Labels** - label the patients mortality class (1 or 0) depending on whether they died within 365 days or lived longer than 365 days. 
-> Export Cleaned up CSV
+> **Data Exploration** - Run SweetViz, Functionality to eliminate columns of your choosing <br>
+> **Class Labels** - label the patients mortality class (1 or 0) depending on whether they died within 365 days or lived longer than 365 days. <br>
+> Export Cleaned up CSV <br>
 
 02_Create_Patient_Episode.........
 > The 2nd Jupyter File will take the cleaned up csv from step 1 and re-organize it into a standardized format more effective for model input.  It will create separate dataframes and csv files for patients, episodes, visits, and events and export them.
