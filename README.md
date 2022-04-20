@@ -10,16 +10,18 @@
 
 2. Move the cloned folder into your Jupyter server base folder, or direct Jupyter web client to correct folder location.
 
-3. You should create a local conda environment via the below command and using the environment.yml file which has all the packages needed: 
+3. Create a folder named `__csvStore` and place a .csv version of the Compassus data file.
+
+4. You should create a local conda environment via the below command and using the environment.yml file which has all the packages needed: 
 
       `conda env create -f environment.yml`
 
-4. Activate the conda environment you created:
+5. Activate the conda environment you created:
        `activate pyhospice'
 
-5. Launch Jupyter Notebook
+6. Launch Jupyter Notebook
  
-6. The Jupyter Notebooks are executed in order to replicate the results on your own local machine. Follow the documentation in the notebooks for detailed explanations of each step
+7. The Jupyter Notebooks are executed in order to replicate the results on your own local machine. Follow the documentation in the notebooks for detailed explanations of each step
 
 01_Clean_RawData.........
 > **Import CSV data** - You may have to convert excel file to csv. This step takes final version of Compassus data file as input <br>
